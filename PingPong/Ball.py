@@ -56,3 +56,15 @@ class Ball:
                 self.vel[0] *= -1
             if self.pos[1] < slabPos[1] or self.pos[1] > slabPos[3]:
                 self.vel[1] *= -1
+
+    def printCoverageInfo(self):
+        for branch, covered in self.branch_coverage.items():
+            print(f"Branch {branch}: {'Covered' if covered else 'Not Covered'}")
+
+# Example of running and checking coverage information
+if __name__ == "__main__":
+    win = pygame.display.set_mode((800, 600))
+    ball = Ball([400, 300], [10, 10], win, 15, [0, 0], [800, 600])
+    ball.borderCollisionCheck()
+    ball.checkSlabCollision([100, 100, 200, 200])
+    ball.printCoverageInfo()
