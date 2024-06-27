@@ -98,6 +98,28 @@ num-py
 
 <The test I have provided tests the function when the array is not equal that means both the print statements get hit and the coverage is 100%>
 
+<Connor>
+
+Pre-test coverage
+
+![](old_cov.png)
+
+Pre-test branches
+
+![](old_branches.png)
+
+
+Post-test coverage
+
+![](new_cov.png)
+
+Post-test branches
+
+![](new_branches.png)
+
+Code added: track.py, test.py
+Code modified: pongpong.py, ball.py, paddle.py
+
 ### Overall
 
 Old cov:
