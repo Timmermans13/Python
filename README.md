@@ -109,8 +109,8 @@ Francis:
 
 Tim:
 
-![](https://github.com/Timmermans13/Python/blob/master/.images/oldstatlin.png)
-![](https://github.com/Timmermans13/Python/blob/master/.images/oldstatnum.png)
+![](https://github.com/Timmermans13/Python/blob/master/oldstatlin.png)
+![](https://github.com/Timmermans13/Python/blob/master/oldstatnum.png)
 
 New cov:
 
@@ -121,8 +121,8 @@ Francis:
 
 Tim:
 
-![](https://github.com/Timmermans13/Python/blob/master/.images/newstatlin.png)
-![](https://github.com/Timmermans13/Python/blob/master/.images/newstatnum.png)
+![](https://github.com/Timmermans13/Python/blob/master/newstatlin.png)
+![](https://github.com/Timmermans13/Python/blob/master/newstatnum.png)
 
 <Provide a screenshot of the new coverage results by running the existing tool using all test modifications made by the group>
 
