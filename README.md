@@ -151,6 +151,22 @@ Post-test coverage
 
 ![](https://raw.githubusercontent.com/Timmermans13/Python/stan/Industrial_developed_hangman/cov_after.png)
 
+
+Test 2: TIC_TAC_TOE
+
+Pre-test coverage
+![](https://raw.githubusercontent.com/Timmermans13/Python/master/TIC_TAC_TOE/coverage%20before.png)
+
+Pre-test function branches that were hit
+![](https://raw.githubusercontent.com/Timmermans13/Python/master/TIC_TAC_TOE/branch_coverage_before_test.png)
+
+Post-test branches that were hit
+![](https://raw.githubusercontent.com/Timmermans13/Python/master/TIC_TAC_TOE/branch_coverage_after_test.png)
+
+
+Post-test coverage
+![](https://raw.githubusercontent.com/Timmermans13/Python/master/TIC_TAC_TOE/overage%20after%20test.png.)
+
 ## Statement of individual contributions
 
 Stan: I have made coverage measurements of two functions and
