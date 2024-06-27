@@ -84,3 +84,25 @@ Francis:
 
 Francis: I have made coverage measurements of two functions and 
 I have addedone test case for each function to improve the coverage.
+
+
+
+## Stan
+Test 1: industrial_developed_hangman
+
+Pre-test coverage
+![](https://raw.githubusercontent.com/Timmermans13/Python/stan/Industrial_developed_hangman/cov_before.png)
+
+Pre-test function branches that were hit
+![](https://raw.githubusercontent.com/Timmermans13/Python/stan/Industrial_developed_hangman/testres_before.png)
+
+Post-test branches hit
+![](https://raw.githubusercontent.com/Timmermans13/Python/stan/Industrial_developed_hangman/testres_after.png)
+
+Post-test coverage
+![](https://raw.githubusercontent.com/Timmermans13/Python/stan/Industrial_developed_hangman/cov_after.png)
+
+## Statement of individual contributions
+
+Stan: I have made coverage measurements of two functions and 
+I have added one test case for each function to improve the coverage.
