@@ -1,0 +1,5 @@
+Conditional Branch Coverage Information:
+branch_1: Taken
+branch_2: Taken
+branch_3: Not Taken
+branch_4: Not Taken
