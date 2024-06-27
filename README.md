@@ -6,7 +6,9 @@ Name: Python
 
 URL: <https://github.com/geekcomputers/Python>
 
-Number of lines of code and the tool used to count it: <31401>
+Number of lines of code and the tool used to count it: <31429>
+
+![](https://github.com/Timmermans13/Python/blob/master/.images/NLOC.png)
 
 Programming language: Python
 
