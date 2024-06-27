@@ -18,7 +18,6 @@ Programming language: Python
 
 <Coverage.py>
 
-
 ### Your own coverage tool
 
 <The following is supposed to be repeated for each group member>
@@ -36,6 +35,20 @@ is_balanced
 <https://github.com/Timmermans13/Python/blob/master/balance_parenthesis.py>
 
 ![](https://github.com/Timmermans13/Python/blob/master/.images/balance_parenthesis_old_cov_inst.png)
+
+<Tim>
+
+linear search
+
+<https://github.com/Timmermans13/Python/blob/master/linear search.py>
+
+![](https://github.com/Timmermans13/Python/blob/master/linsearchold.png)
+
+num-py
+
+<https://github.com/Timmermans13/Python/blob/master/num-py.py>
+
+![](https://github.com/Timmermans13/Python/blob/master/numpyold.png)
 
 ## Coverage improvement
 
@@ -65,13 +78,37 @@ is_balanced
 
 <The test I have provided tests the with the branch where the string empty (bal-case-2). This was the only branch that was not covered, hence improving the branch coverage to 100%>
 
+<Tim>
+
+<Test 1: linear search>
+
+<https://github.com/Timmermans13/Python/blob/master/linear search.py>
+
+![](https://github.com/Timmermans13/Python/blob/master/linsearchold.png)
+
+![](https://github.com/Timmermans13/Python/blob/master/.images/linsearchnew.png)
+
+<The test I have provided tests the function when the letter is not in the array. For this I chose the letter Z. with makeing the new secont test the branch coverage is improved to 100%
+
+<Test 2: num-py>
+
+<https://github.com/Timmermans13/Python/blob/master/num-py.py>
+
+![](https://github.com/Timmermans13/Python/blob/master/numpyold.png)
+
 ### Overall
+
 Old cov:
 
 Francis:
 
 ![](https://github.com/Timmermans13/Python/blob/master/.images/pow-cov-res-old.png)
 ![](https://github.com/Timmermans13/Python/blob/master/.images/balance_parenthesis_old_cov_res.png)
+
+Tim:
+
+![](https://github.com/Timmermans13/Python/blob/master/.images/oldstatlin.png)
+![](https://github.com/Timmermans13/Python/blob/master/.images/oldstatnum.png)
 
 New cov:
 
@@ -80,16 +117,22 @@ Francis:
 ![](https://github.com/Timmermans13/Python/blob/master/.images/pow-cov-res-new.png)
 ![](https://github.com/Timmermans13/Python/blob/master/.images/balance_parenthesis_new_cov_res.png)
 
+Tim:
+
+![](https://github.com/Timmermans13/Python/blob/master/.images/newstatlin.png)
+![](https://github.com/Timmermans13/Python/blob/master/.images/newstatnum.png)
+
 <Provide a screenshot of the new coverage results by running the existing tool using all test modifications made by the group>
 
 ## Statement of individual contributions
 
-Francis: I have made coverage measurements of two functions and 
+Francis: I have made coverage measurements of two functions and
 I have addedone test case for each function to improve the coverage.
 
-
+Tim: I have done the coverage measurements of two functio and added test cases for the improvement of the coverage
 
 ## Stan
+
 Test 1: industrial_developed_hangman
 
 Pre-test coverage
@@ -110,5 +153,5 @@ Post-test coverage
 
 ## Statement of individual contributions
 
-Stan: I have made coverage measurements of two functions and 
+Stan: I have made coverage measurements of two functions and
 I have added one test case for each function to improve the coverage.
