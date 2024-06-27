@@ -88,13 +88,15 @@ num-py
 
 ![](https://github.com/Timmermans13/Python/blob/master/.images/linsearchnew.png)
 
-<The test I have provided tests the function when the letter is not in the array. For this I chose the letter Z. with makeing the new secont test the branch coverage is improved to 100%
+<The test I have provided tests the function when the letter is not in the array. For this I chose the letter Z. with makeing the new secont test the branch coverage is improved to 100%>
 
 <Test 2: num-py>
 
 <https://github.com/Timmermans13/Python/blob/master/num-py.py>
 
 ![](https://github.com/Timmermans13/Python/blob/master/numpyold.png)
+
+<The test I have provided tests the function when the array is not equal that means both the print statements get hit and the coverage is 100%>
 
 ### Overall
 
@@ -151,7 +153,6 @@ Post-test coverage
 
 ![](https://raw.githubusercontent.com/Timmermans13/Python/stan/Industrial_developed_hangman/cov_after.png)
 
-
 Test 2: TIC_TAC_TOE
 
 Pre-test coverage
@@ -162,7 +163,6 @@ Pre-test function branches that were hit
 
 Post-test branches that were hit
 ![](https://raw.githubusercontent.com/Timmermans13/Python/master/TIC_TAC_TOE/branch_coverage_after_test.png)
-
 
 Post-test coverage
 ![](https://raw.githubusercontent.com/Timmermans13/Python/master/TIC_TAC_TOE/overage%20after%20test.png.)
