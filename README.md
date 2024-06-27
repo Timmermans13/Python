@@ -131,7 +131,7 @@ Tim:
 Francis: I have made coverage measurements of two functions and
 I have addedone test case for each function to improve the coverage.
 
-Tim: I have done the coverage measurements of two functio and added test cases for the improvement of the coverage
+Tim: I have done the coverage measurements of two functio and added test cases for the improvement of the coverage.
 
 ## Stan
 
