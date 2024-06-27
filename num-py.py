@@ -1,16 +1,33 @@
 import numpy as np
 
-# to check if shape are equal and find there power
+coverage = {
+    "equal" : False,
+    "notequal" : False
+}
+
+def printCov():
+    for branch, hit in coverage.items():
+        if hit:
+            print(branch, "was hit")
+        else:
+            print(branch, "was not hit")
+
+            
+def testNotEqual():
+    get_array(np_arr1, np_arr6)
+
 def get_array(x, y):
     a = np.shape(x)
     b = np.shape(y)
 
     if a == b:
+        coverage["equal"] = True
         np_pow_array = x ** y
         print("Array of powers without using np.power: ", np_pow_array)
 
         print("Array of powers using np.power: ", np.power(x, y))
     else:
+        coverage["notequal"] = True
         print("Error : Shape of the given arrays is not equal.")
 
 
@@ -29,3 +46,8 @@ print()
 get_array(np_arr3, np_arr4)
 print()
 get_array(np_arr5, np_arr6)
+testNotEqual()
+printCov()
+
+
+
