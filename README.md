@@ -86,7 +86,7 @@ num-py
 
 ![](https://github.com/Timmermans13/Python/blob/master/linsearchold.png)
 
-![](https://github.com/Timmermans13/Python/blob/master/.images/linsearchnew.png)
+![](https://github.com/Timmermans13/Python/blob/master/linsearchnew.png)
 
 <The test I have provided tests the function when the letter is not in the array. For this I chose the letter Z. with makeing the new secont test the branch coverage is improved to 100%>
 
@@ -95,6 +95,8 @@ num-py
 <https://github.com/Timmermans13/Python/blob/master/num-py.py>
 
 ![](https://github.com/Timmermans13/Python/blob/master/numpyold.png)
+
+![](https://github.com/Timmermans13/Python/blob/master/numpynew.png)
 
 <The test I have provided tests the function when the array is not equal that means both the print statements get hit and the coverage is 100%>
 
@@ -107,7 +109,6 @@ Pre-test coverage
 Pre-test branches
 
 ![](old_branches.png)
-
 
 Post-test coverage
 
